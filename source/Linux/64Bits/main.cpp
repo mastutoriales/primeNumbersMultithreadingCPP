@@ -107,7 +107,7 @@ void guardar(string salida){
 	int64_t min;
 	int pos;
 	while(!estaVacia()){
-		min= 2147483647;
+		min= 9223372036854775807;
 		pos=-1;
 		for(int i=0;i<nthreads;i++){
 			if(primos[i].head!=NULL&&primos[i].head->dato<min){
